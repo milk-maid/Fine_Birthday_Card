@@ -29,7 +29,6 @@ body {
 @media only screen and (min-width: 1000px) {
     .card {
         flex-direction: row-reverse;
-        /* justify-content: space-between; */
     }
     .card img .birthday {
         width: 100%;
@@ -38,17 +37,16 @@ body {
     }
 }
 
-/* @media only screen and (max-height: 640px) {
+@media only screen and (max-height: 640px) {
     .card {
         flex-direction: row-reverse;
-        /* justify-content: space-between; */
     }
     .card img .birthday {
         width: 100%;
         max-width: 50vw;
         max-height: unset;
     }
-} */
+}
 
 img.birthday {
     max-height: 40vh;
@@ -59,7 +57,7 @@ img.birthday {
 }
 
 .muted {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .space {
